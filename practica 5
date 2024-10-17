@@ -1,0 +1,110 @@
+(HTML)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 5 - Biografía</title>
+    <link rel="stylesheet" href="css/Estilos.css">
+</head>
+<body>
+    <div class="contenedor">
+        <header></header>
+
+        <main>
+            <div class="foto">
+                <img src="file:///C:/Users/gabit/OneDrive/Documentos/Practicas%20CSS/Practica%204/img/perfil.png" alt="Foto de perfil">
+            </div>
+            <div class="texto">
+                <h2>Gabriel Valencia</h2>
+                <p>
+                    Hola que tal, soy Gabriel del grupo 603 y estoy en la práctica 4 llamada biografía.
+                    Esto es para ser calificado y pasar el título con buena calificación. Espero salga bien.
+                    Mi matrícula es 02107874 y, pues, ya no sé qué poner... el texto está en un idioma bien raro.
+                    ¡Hola profe!
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium cum necessitatibus odit?
+                    Labore, dolor autem ullam ad veritatis doloribus culpa dignissimos dolores sit similique aliquam
+                    dolorum blanditiis nisi minus exercitationem!
+                </p>
+                <!-- Botón debajo del texto -->
+                <button class="boton">Ver más</button>
+            </div>
+        </main>
+
+        <footer>
+            <h3>Práctica hecha por: Gabriel Valencia - 02107874</h3>
+        </footer>
+    </div>
+</body>
+</html>
+
+
+(CSS)
+
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "calibri light";
+}
+
+.contenedor {
+    background: tomato;
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    width: 100%; /* Cambiado: El header ocupa el 100% del ancho */
+    height: 400px;
+    background-image: url("file:///C:/Users/gabit/OneDrive/Documentos/Practicas%20CSS/Practica%204/img/portada.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+main {
+    background: white;
+    padding: 20px 30px;
+}
+
+main .foto {
+    width: 150px;
+    height: 150px;
+    background-color: teal;
+    border-radius: 50%;
+    margin: -90px 0 20px 0;
+    border: 6px solid #ffffff;
+}
+
+main .foto img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+main .texto {
+    margin-bottom: 20px; /* Espacio debajo del texto para el botón */
+}
+
+/* Estilos del botón */
+.boton {
+    display: block;
+    padding: 10px 20px;
+    background-color: teal;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+    background-color: #014d4e;
+}
