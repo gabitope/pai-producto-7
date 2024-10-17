@@ -1,0 +1,56 @@
+(HTML)
+
+<HTML LANG="en">
+<HEAD>
+     <META CHARSET="UTF"-8>
+     <META NAME="VIEWPORT" CONTENT="WIDTH=DEVICE-WIDTH, INITIAL-SCALE=1.0">
+     <TITLE>PRACTICA 2 - SELECTORES</TITLE>
+     <LINK REL="stylesheet" HREF="css/Estilos.css">
+</HEAD>
+<BODY>
+     <DIV>
+	 <H1> HOLA, BIENVENIDOS A LA PRACTICA 2</H1>
+     	 
+	 <P> Hola, BIENVENIDOS A ESTA PRACTICA, EN LA QUE VEREMOS COMO PODER 
+         FONDOS CON IMAGENES EN CSS</P>	
+     <P> ES IMPORTANTE CONOCER LAS PROPIEDADES QUE NOS OFRECE EL LENGUAJE CSS</P>
+     <P CLASS="NEGRITAS">ESTA PRACTICA PRESENTA UN CONTENEDOR O CAJA HECHA CON DIV</P>
+	 
+	 <P CLASS="PERSONAL">PRACTICA REALIZADA POR 
+	    Gabriel Valencia</P>
+	 </DIV>
+</BODY>
+</HTML>	
+
+(CSS)
+
+body {
+    font-family: Verdana;
+    background: url('file:///C:/Users/gabit/OneDrive/Documentos/Practicas%20CSS/Practica%202/img/chaetarantino.jpeg');
+    background-repeat: repeat;
+}
+
+h1, p {
+    color: #000000;
+    text-align: center;
+}
+
+div {
+    width: 60%;
+    height: 500px;
+    background: #FFFFFF;
+    margin: auto;
+}
+
+.negritas {
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+}
+
+.personal {
+    color: yellow;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
