@@ -1,0 +1,325 @@
+(INDEX)
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Página Principal - Proyecto Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e3e3e3;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        nav a {
+            margin: 10px;
+            padding: 10px 20px;
+            text-decoration: none;
+            background-color: #d5a4c6;
+            color: white;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #79adde;
+        }
+        img {
+            width: 500px;
+            height: auto;
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+
+<h1>Proyecto Web</h1>
+
+<p>Explora nuestras secciones:</p>
+
+<nav>
+    <a href="peliculastarantino.html">Películas de Tarantino</a>
+    <a href="listaskpop.html">Grupos de K-pop</a>
+    <a href="games.html">Elementos Multimedia de Videojuegos</a>
+</nav>
+
+<img src="https://i.blogs.es/44c39d/vega/650_1200.jpeg" 
+     alt="Quentin Tarantino">
+<img src="https://larepublica.cronosmedia.glr.pe/original/2022/05/16/62826077b0689e2dcf299a6e.jpg" 
+     alt="Concierto de K-pop">
+<img src="https://www.animum3d.com/wp-content/uploads/2023/05/blog-videojuegos-cabecera-1200x720.png" 
+     alt="Videojuegos">
+
+</body>
+</html>
+
+
+(PELICULASTARANTINO)
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Películas de Quentin Tarantino</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e3e3e3;
+            padding: 20px;
+            text-align: center;
+        }
+        nav a {
+            margin: 10px;
+            padding: 10px 20px;
+            text-decoration: none;
+            background-color: #d5a4c6;
+            color: white;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #79adde;
+		}	
+		table {
+            width: 80%;
+            margin: auto;
+            border-collapse: collapse;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 15px;
+            text-align: center;
+        }
+        th {
+            background-color: #420125;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+<nav>
+    <a href="index.html">Página Principal</a>
+	<a href="peliculastarantino.html">Películas de Tarantino</a>
+    <a href="listaskpop.html">Grupos de K-pop</a>
+    <a href="games.html">Elementos Multimedia de Videojuegos</a>
+</nav>
+
+<h1>Películas de Quentin Tarantino y sus Ventas</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Película</th>
+            <th>Año</th>
+            <th>Recaudación</th>
+            <th>Premios</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Pulp Fiction</td>
+            <td>1994</td>
+            <td>$213 millones</td>
+            <td>Oscar al Mejor Guion</td>
+        </tr>
+        <tr>
+            <td>Kill Bill: Vol. 1</td>
+            <td>2003</td>
+            <td>$180 millones</td>
+            <td>MTV Movie Award</td>
+        </tr>
+        <tr>
+            <td>Inglourious Basterds</td>
+            <td>2009</td>
+            <td>$321 millones</td>
+            <td>Oscar al Mejor Actor Secundario</td>
+        </tr>
+        <tr>
+            <td>DJango Unchained</td>
+            <td>2012</td>
+            <td>$450 millones</td>
+            <td>Premio Óscar al Mejor Actor de Reparto</td>
+        </tr>
+		<tr>
+            <td>Once Upon a Time in Hollywood</td>
+            <td>2019</td>
+            <td>$240 millones</td>
+            <td>Premio Óscar al Mejor Actor de Reparto</td>
+        </tr>
+		<tr>
+            <td>Reservoir Dogs</td>
+            <td>1992</td>
+            <td>$36 millones</td>
+            <td>Independent Spirit Award al Mejor Actor de Reparto</td>
+        </tr>
+		<td>Grindhouse </td>
+            <td>2007</td>
+            <td>$25 millones</td>
+            <td>Premio Saturn a la mejor actriz</td>
+        </tr>
+	</tbody>
+</table>
+
+</body>
+</html>
+
+(LISTASKPOP)
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Grupos de K-pop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e3f2fd;
+            padding: 20px;
+        }
+         nav a {
+            margin: 10px;
+            padding: 10px 20px;
+            text-decoration: none;
+            background-color: #d5a4c6;
+            color: white;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #79adde;
+		}
+		ul, ol {
+            margin: 20px;
+            padding-left: 40px;
+        }
+    </style>
+</head>
+<body>
+<nav>
+    <a href="index.html">Página Principal</a>
+    <a href="peliculastarantino.html">Películas de Tarantino</a>
+    <a href="listaskpop.html">Grupos de K-pop</a>
+    <a href="games.html">Elementos Multimedia de Videojuegos</a>
+</nav>
+
+<h1>Grupos de K-pop</h1>
+
+<h2>Lista Desordenada (AESPA)</h2>
+<ul>
+    <li>Yoo Ji Min (Karina)</li>
+    <li>Kim Min Jeong (Winter)</li>
+    <li>Ning Yi Zhuo (Ningning)</li>
+    <li>Uchinaga Eri (Giselle)</li>
+	<img src="https://scontent.ftij3-1.fna.fbcdn.net/v/t39.30808-6/400089453_848235877100238_4308366410808164796_n.jpg?stp=cp6_dst-jpg&_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=J9198zgDuToQ7kNvgHw440r&_nc_zt=23&_nc_ht=scontent.ftij3-1.fna&_nc_gid=ADynd6tEnPkrjZY_UHO5hdH&oh=00_AYDvSGjJq-19EGdGE0_FAqDpaQLIqQzrXks_HZN063Dwgw&oe=6714F249" 
+     WIDTH= 45% alt="Aespa">
+</ul>
+
+<h2>Lista Ordenada (Twice)</h2>
+<ol>
+    <li>Chaeyoung</li>
+    <li>Sana</li>
+    <li>Momo</li>
+    <li>Jihyo</li>
+	<li>Dahyun</li>
+	<li>Tzuyu</li>
+	<li>Mina</li>
+	<li>Nayeon</li>
+	<li>Jeongyeon</li>
+	<img src="https://plus.cusica.com/wp-content/uploads/2023/01/twice.jpg" 
+     WIDTH= 45% alt="Twice">
+</ol>
+
+<h2>Lista Anidada (Le Sserafim)</h2>
+<ul>
+    <li>Kim Chaewon
+        <ul>
+            <li>Seúl, Corea del Sur.</li>
+        </ul>
+    </li>
+    <li>Huh Yun-jin</li>
+	 <ul>
+            <li>Gangnam-gu, Seúl, Corea del Sur.</li>
+        </ul>
+	<li>Hong Eun-chae</li>
+	 <ul>
+            <li>Namhyeon, Distrito de Gwanak, Seúl, Corea del Sur.</li>
+        </ul>
+	<li>Kazuha Nakamura</li>
+	 <ul>
+            <li>Kōchi, Prefectura de Kōchi, Japón.</li>
+        </ul>
+	<li>Sakura Miyawaki</li>
+	 <ul>
+            <li>Ciudad de Kagoshima, Prefectura de Kagoshima, Japón.</li>
+        </ul>
+</ul>
+<img src="https://i.pinimg.com/1200x/56/e8/51/56e851fa751aa3435b15f64914edd59b.jpg" 
+     WIDTH= 45% alt="Le Sserafim">
+
+</body>
+</html>
+
+(GAMES)
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos Multimedia - Videojuegos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fbe7c6;
+            text-align: center;
+            padding: 30px;
+        }
+         nav a {
+            margin: 10px;
+            padding: 10px 20px;
+            text-decoration: none;
+            background-color: #d5a4c6;
+            color: white;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #79adde;
+		}
+		iframe {
+            width: 70%;
+            height: 600px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+<nav>
+    <a href="index.html">Página Principal</a>
+	<a href="peliculastarantino.html">Películas de Tarantino</a>
+    <a href="listaskpop.html">Grupos de K-pop</a>
+    <a href="games.html">Elementos Multimedia de Videojuegos</a>
+</nav>
+
+<h1>Videos de Videojuegos</h1>
+
+<iframe src="https://www.youtube.com/embed/F9ohCKS_LUM?si=t_NLBYipjIwV1IoJ" 
+        title="Trailer de The Legend of Zelda"></iframe>
+
+<h2>Imagen de Videojuegos</h2>
+<img src="https://image.api.playstation.com/vulcan/ap/rnd/202206/0719/NZdaAoo8VJRP71AVUIYmW19j.jpg" 
+     alt="Portada del remake de The Last of Us" width= 70%>
+
+<h3>Gif de Videojuegos</h2>
+<img src="https://steamuserimages-a.akamaihd.net/ugc/922549301949895654/87631B808C8A3EF5EF246B8C6AA66CE652E74859/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false"
+     alt="Gif del juego Hollow Knight" WIDTH=70%>
+
+</body>
+</html>
