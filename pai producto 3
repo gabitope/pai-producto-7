@@ -1,0 +1,507 @@
+(index)
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <title>Página Principal</title>
+    </head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+				<li><a href="#musica">Musica</a></li>
+                <li><a href="#peliculas">Peliculas</a></li>
+                <li><a href="#artistas">Artistas</a></li>
+                <li><a href="#series">Series</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h1>Bienvenido a Nuestra Página</h1>
+            <img src="https://media1.tenor.com/m/nzmrEK4wnzUAAAAC/hola-saludo.gif" alt="hola">
+            <img src="https://img1.picmix.com/output/pic/normal/9/9/3/1/6441399_5c82e.gif" alt="hola2">
+        </section>
+
+       <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+				<li><a href="#musica">Musica</a></li>
+                <li><a href="#peliculas">Peliculas</a></li>
+                <li><a href="#artistas">Artistas</a></li>
+                <li><a href="#series">Series</a></li>
+            </ul>
+        </nav>
+    </header>
+
+	   <section id="musica">
+            <h2>Musica</h2>
+            <p>Arte sonoro que evoca emociones.</p>
+            <img src="https://musictech.com/wp-content/uploads/2024/04/Nujabes-in-studio-hero-credit-Yosuke-Moriya@2000x1500.jpg" WIDTH= 30% alt="Seba Jun(Nujabes)productor japones">
+		</section>
+
+        <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+				<li><a href="#musica">Musica</a></li>
+                <li><a href="#peliculas">Peliculas</a></li>
+                <li><a href="#artistas">Artistas</a></li>
+                <li><a href="#series">Series</a></li>
+            </ul>
+        </nav>
+    </header>
+		
+		<section id="peliculas">
+            <h2>Peliculas</h2>
+            <p>Narrativas audiovisuales que cuentan historias.</p>
+            <img src="https://trentwalton.com/assets/uploads/2016/06/films.jpg"  WIDTH= 50% alt="mis peliculas rateadas">
+		</section>
+
+        <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+				<li><a href="#musica">Musica</a></li>
+                <li><a href="#peliculas">Peliculas</a></li>
+                <li><a href="#artistas">Artistas</a></li>
+                <li><a href="#series">Series</a></li>
+            </ul>
+        </nav>
+    </header>
+		
+		<section id="artistas">
+            <h2>Artistas</h2>
+            <p>Creadores que expresan su visión única en diferentes artes.</p>
+            <img src="https://arc-anglerfish-arc2-prod-infobae.s3.amazonaws.com/public/64DBM3KGPNDATLYKNKSSCUDBBI.png" WIDTH= 30% alt="Descripción de la imagen 1">
+		</section>
+    
+	    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+				<li><a href="#musica">Musica</a></li>
+                <li><a href="#peliculas">Peliculas</a></li>
+                <li><a href="#artistas">Artistas</a></li>
+                <li><a href="#series">Series</a></li>
+            </ul>
+        </nav>
+    </header>
+		
+		<section id="series">
+		    <h2>Series</h2>
+			<p>Programas televisivos que desarrollan tramas.</p>
+	        <img src="https://fotografias.lasexta.com/clipping/cmsimages02/2022/03/14/B654E51D-ECC2-43AC-BB61-33ED74B3781E/hbo-max-precio-suscripcion-ofertas-mejores-series_103.jpg?crop=2745,2059,x365,y0&width=1200&height=900&optimize=low&format=webply" WIDTH= 40% alt="Descripción de la imagen 1">
+	</main>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+				<li><a href="#musica">Musica</a></li>
+                <li><a href="#peliculas">Peliculas</a></li>
+                <li><a href="#artistas">Artistas</a></li>
+                <li><a href="#series">Series</a></li>
+            </ul>
+        </nav>
+    </header>
+	
+	<footer>
+        <p>&copy; 2024 Gabriel Valencia Vega. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
+
+
+(LISTAS)
+
+<HTML>
+    <HEAD><TITLE> Listas</TITLE>
+	</HEAD>
+<BODY>
+    <H1>Lista con vi&ntilde;etas (NO ORDENADAS)</FONT> </H1>
+	<UL>
+	    <LI>Ropa</LI>
+		<LI>M&uacute;sica</LI>
+		<LI>Pel&iacute;culas</LI>
+		<LI>Arte</LI>
+		<LI>Basquetbol</LI>
+    </UL>
+<H2>Lista con vi&ntilde;etas en forma de circulo</FONT></H2>
+	<UL TYPE=CIRCLE>
+	    <LI>Gimnasio</LI>
+		<LI>Instrumentos</LI>
+		<LI>Escuela</LI>
+		<LI>Canciones</LI>
+		<LI>Futbol</LI>	
+    </UL>
+<H2>Lista con vi&ntilde;etas en forma de cuadrado</FONT></H2>
+	<UL TYPE=SQUARE>
+	    <LI>Bancos</LI>
+		<LI>Obras de teatro</LI>
+		<LI>Libros</LI>
+		<LI>Colores</LI>
+		<LI>UFC</LI>	
+    </UL>
+<H2>Lista con vi&ntilde;etas en forma de disco</FONT></H2>
+	<UL TYPE=DISC>
+	    <LI>WWE</LI>
+		<LI>Beisbol</LI>
+		<LI>Uniformes</LI>
+		<LI>Pesas</LI>
+		<LI>Maquillaje</LI>	
+    </UL>
+
+<H2>Lista principal con vi&ntilde;etas en forma de disco y una lista dentro de otra lista con vi&ntilde;etas en forma de cuadrado</FONT></H2>
+    <UL TYPE=DISC>
+        <LI>Tipos de M&uacute;sica
+		   <UL TYPE=SQUARE>
+		       <LI>Pop</LI>
+		       <LI>Reggaeton</LI>
+		       <LI>Cl&aacute;sica</LI>
+            </UL>
+	    </LI>
+		<LI>Generos de M&uacute;sica</LI>
+		   <UL TYPE=SQUARE>
+		       <LI>Jazz</LI>
+		       <LI>Reggae</LI>
+		       <LI>Electr&uocute;nica</LI>
+            </UL>
+		<LI>Subgeneros de M&uacute;sica</LI>
+		     <UL TYPE=SQUARE>
+		       <LI>Trap </LI>
+		       <LI>Dancehall</LI>
+		       <LI>Synthwave </LI>
+            </UL>
+    </UL>
+
+<H1>Listas ORDENADAS</FONT></H1>
+    <OL TYPE=1>
+        <LI>Lugar de grabaci&oacute;n</LI>
+		<LI>Productor</LI>
+		<LI>Instrumentos</LI>
+		<LI>Cantante</LI>
+		<LI>Grabacion</LI>
+	</OL>	
+
+    <OL TYPE=A>
+        <LI>Cuadro</LI>
+		<LI>Herramientas</LI>
+		<LI>Preparaci&oacute;n</LI>
+		<LI>Proceso</LI>
+		<LI>Venta</LI>
+	</OL>	
+
+    <OL TYPE=a>
+        <LI>Lugar</LI>
+		<LI>Maquinas</LI>
+		<LI>Sponsors</LI>
+		<LI>Baños</LI>
+		<LI>Vestuarios</LI>
+	</OL>	
+
+     <OL TYPE=i>
+        <LI>Estadio</LI>
+		<LI>Pasto</LI>
+		<LI>Porterias</LI>
+		<LI>Uniformes</LI>
+		<LI>Pelotas</LI>
+	</OL>	
+    
+	<OL TYPE=I>
+        <LI>Materiales</LI>
+		<LI>Maquinas</LI>
+		<LI>Proceso</LI>
+		<LI>Forma</LI>
+		<LI>Pulido</LI>
+	</OL>	
+
+</BODY>
+</HTML>	
+
+
+(TABLAS)
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta charset="UTF-8">
+    <title>Tabla</title>
+    <style>
+        table {
+            width: 60%;
+            margin: auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #0b2fc2;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #c20b77;
+        }
+    </style>
+</head>
+<body>
+
+<h2 style="text-align: center;">Ejemplo de una Tabla de ventas</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Producto</th>
+            <th>Precio</th>
+            <th>Cantidad</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Manzanas</td>
+            <td>$2.00</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>Peras</td>
+            <td>$1.50</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>Bananas</td>
+            <td>$1.20</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>Melones</td>
+            <td>$3.00</td>
+            <td>10</td>
+        </tr>
+	    <tr>
+            <td>Limones</td>
+            <td>$1.00</td>
+            <td>40</td>
+        </tr>
+	    <tr>
+            <td>Naranjas</td>
+            <td>$2.50</td>
+            <td>25</td>
+        </tr>
+	    <tr>
+            <td>Sandias</td>
+            <td>$6.00</td>
+            <td>15</td>
+        </tr>
+	</tbody>
+</table>
+
+<title>Tabla de Elementos y Parámetros</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: center;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:hover {
+            background-color: #e1e1e1;
+        }
+    </style>
+</head>
+
+<h1>Tabla de Elementos Químicos</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Elemento</th>
+            <th>Símbolo</th>
+            <th>Número Atómico</th>
+            <th>Peso Atómico</th>
+            <th>Punto de Fusión (°C)</th>
+            <th>Punto de Ebullición (°C)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Hidrógeno</td>
+            <td>H</td>
+            <td>1</td>
+            <td>1.008</td>
+            <td>-259</td>
+            <td>-252</td>
+        </tr>
+        <tr>
+            <td>Oxígeno</td>
+            <td>O</td>
+            <td>8</td>
+            <td>15.999</td>
+            <td>-218</td>
+            <td>-183</td>
+        </tr>
+        <tr>
+            <td>Neón</td>
+            <td>Ne</td>
+            <td>10</td>
+            <td>20.1797</td>
+            <td>-248,6</td>
+            <td>-246</td>
+        </tr>
+        <tr>
+            <td>Oro</td>
+            <td>Au</td>
+            <td>79</td>
+            <td>196.967</td>
+            <td>1064</td>
+            <td>2856</td>
+        </tr>
+        <tr>
+            <td>Mercurio</td>
+            <td>Hg</td>
+            <td>80</td>
+            <td>200.59</td>
+            <td>-39</td>
+            <td>357</td>
+        </tr>
+    </tbody>
+</table>
+
+ <title>Tabla de Elementos Mágicos</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #eae7dc;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        h1 {
+            text-align: center;
+            color: #4a4e69;
+            margin-bottom: 20px;
+        }
+        table {
+            width: 70%;
+            margin: auto;
+            border-collapse: collapse;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 15px;
+            text-align: center;
+        }
+        th {
+            background-color: #9a8c98;
+            color: white;
+        }
+        th.row-header {
+            background-color: #4a4e69;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2e9e4;
+        }
+        tr:hover {
+            background-color: #c9ada7;
+        }
+        footer {
+            margin-top: auto;
+            text-align: center;
+            padding: 15px;
+            font-size: 18px;
+            background-color: #4a4e69;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Propiedades de Elementos Mágicos</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th rowspan="2">Elemento</th>
+            <th colspan="2">Naturaleza</th>
+            <th colspan="2">Poderes</th>
+        </tr>
+        <tr>
+            <th>Tipo</th>
+            <th>Raridad</th>
+            <th>Efecto Primario</th>
+            <th>Efecto Secundario</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th class="row-header">Cristal de Fuego</th>
+            <td>Fuego</td>
+            <td>Raro</td>
+            <td>Control del Fuego</td>
+            <td>Aumento de Energía</td>
+        </tr>
+        <tr>
+            <th class="row-header">Gema de Agua</th>
+            <td>Agua</td>
+            <td>Poco Común</td>
+            <td>Curación</td>
+            <td>Aumenta la Resistencia</td>
+        </tr>
+        <tr>
+            <th class="row-header">Polvo Estelar</th>
+            <td>Éter</td>
+            <td>Muy Raro</td>
+            <td>Teletransportación</td>
+            <td>Aumento de la Percepción</td>
+        </tr>
+        <tr>
+            <th class="row-header">Flor de Sombra</th>
+            <td>Oscuridad</td>
+            <td>Poco Común</td>
+            <td>Camuflaje</td>
+            <td>Manipulación del Miedo</td>
+        </tr>
+        <tr>
+            <th class="row-header">Esencia de Luz</th>
+            <td>Luz</td>
+            <td>Legendario</td>
+            <td>Purificación</td>
+            <td>Escudo Protector</td>
+        </tr>
+    </tbody>
+</table>
+
+<footer>Título: Propiedades y Poderes de Elementos Mágicos</footer>
+</body>
+</html>
