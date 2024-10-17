@@ -1,0 +1,43 @@
+(HTML)
+
+HTML LANG="EN">
+<HEAD>
+      <META CHARSET="UTF-8">
+      <META NAME="VIEWPORT" CONTET="WIDTH=DEVICE-WIDTH, INITIAL-SCALE=1.0">
+      <TITLE> PRACTICA 1 - SELECTORS</TITLE>
+      <LINK REL="STYLESHEET" HREF="css/Estilos.CSS">
+</HEAD>
+<BODY>
+    <H1> Bienvenidos a CSS</H1>
+
+    <P>CSS es el lenguaje que se utiliza para dar diseño visual
+     a una página web; colores, texto, imágenes , etc.</P>
+
+    <P>NOTA: Se le llama CSS porque se refiere a una Cascada.</P>
+	
+	<P> Hola, yo soy Gabriel y estoy en el grupo 603
+    y estoy en la materia de Diseño Web. </P>
+
+</BODY>
+</HTML> 
+
+(CSS)
+
+BODY    {
+        Background: #8cd4e3;
+		font-family: Calibri;
+		color: #9B59B6;
+		
+	}
+
+H1  {
+        color: #FFFFFF;
+        font-size: 25Px; 
+        font-family: Elephant;
+    }
+	
+pre   {
+        color: #5B2C6F;
+		font-family: Bodoni MT;
+		font-size: 15Px;
+    }	
